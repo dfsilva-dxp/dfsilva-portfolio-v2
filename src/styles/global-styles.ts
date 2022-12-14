@@ -1,6 +1,66 @@
 import { createGlobalStyle, css } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
+/* quicksand-regular - latin */
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../../public/fonts/Quicksand/regular.woff2') format('woff2'),
+
+/* quicksand-600 - latin */
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 600;
+  src: local(''),
+       url('../../public/fonts/Quicksand/bold.woff2') format('woff2'), 
+}
+/* quicksand-700 - latin */
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+       url('../../public/fonts/Quicksand/black.woff2') format('woff2'), 
+}
+
+/* Kontora-regular - latin */
+@font-face {
+  font-family: 'Kontora';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../../public/fonts/Kontora/regular.otf') format('otf'),
+}
+
+/* Kontora-medium - latin */
+@font-face {
+  font-family: 'Kontora';
+  font-style: medium;
+  font-weight: 500;
+  src: local(''),
+       url('../../public/fonts/Kontora/medium.otf') format('otf'),
+}
+
+/* Kontora-600 - latin */
+@font-face {
+  font-family: 'Kontora';
+  font-style: normal;
+  font-weight: 600;
+  src: local(''),
+       url('../../public/fonts/Kontora/bold.otf') format('otf'), 
+}
+/* Kontora-700 - latin */
+@font-face {
+  font-family: 'Kontora';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+       url('../../public/fonts/Kontora/black.otf') format('otf'), 
+}
+
 ${({ theme }) => css`
   * {
     margin: 0;
@@ -42,7 +102,7 @@ ${({ theme }) => css`
   textarea,
   select,
   button {
-    font: 400 1rem ${theme.font.family}, sans-serif;
+    font: 400 1rem ${theme.font.family.default}, sans-serif;
     color: ${theme.colors.text};
     transition: color 0.15s ease-in-out;
   }
