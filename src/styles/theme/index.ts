@@ -52,6 +52,15 @@ export default {
     fast: "0.15s ease-in-out"
   },
 
+  layers: {
+    glitch: 5,
+    base: 10,
+    menu: 20,
+    overlay: 30,
+    modal: 40,
+    alwaysOnTop: 50
+  },
+
   colors: {
     white: "#FFFFFF",
     gray50: "#E1E1E6",
