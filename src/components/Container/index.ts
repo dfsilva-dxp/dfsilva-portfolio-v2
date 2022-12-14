@@ -5,6 +5,7 @@ const Container = styled.div`
     width: 100%;
     margin: 0 auto;
     padding: 0 ${theme.spacings.xsmall};
+    position: relative;
 
     @media (min-width: 576px) {
       max-width: ${theme.grid.container.sm};
