@@ -19,7 +19,7 @@ describe("<Link/>", () => {
     expect(link).toHaveStyle({
       width: "100px",
       height: "1.4rem",
-      "line-height": 1
+      "line-height": 1.1
     });
 
     expect(link.parentElement).toHaveStyle({
