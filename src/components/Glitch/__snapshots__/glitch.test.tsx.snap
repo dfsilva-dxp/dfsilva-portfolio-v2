@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Glitch/> should render three columns when passed 1`] = `
+.c0 {
+  position: absolute;
+  height: 100%;
+  border-left: 1px solid #f2f2f2;
+  border-right: 1px solid #f2f2f2;
+  left: 1rem;
+  right: 1rem;
+  z-index: 5;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+
+.c0::before,
+.c0::after {
+  content: "";
+  border-right: 1px solid #E1E1E6;
+}
+
+<div
+  class="c0"
+/>
+`;

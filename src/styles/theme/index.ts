@@ -63,6 +63,7 @@ export default {
 
   colors: {
     white: "#FFFFFF",
+    glitch: "#f2f2f2",
     gray50: "#E1E1E6",
     gray400: "#59606C",
     gray500: "#343642",
