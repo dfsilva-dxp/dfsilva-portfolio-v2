@@ -16,7 +16,7 @@ exports[`<Glitch/> should render three columns when passed 1`] = `
 .c0::before,
 .c0::after {
   content: "";
-  border-right: 1px solid #E1E1E6;
+  border-right: 1px solid #f2f2f2;
 }
 
 <div
