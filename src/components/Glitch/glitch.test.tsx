@@ -30,7 +30,7 @@ describe("<Glitch/>", () => {
     expect(glitch).toHaveStyle({
       "grid-template-columns": "repeat(2,1fr)"
     });
-    expect(glitch).toHaveStyleRule("border-right", "1px solid #E1E1E6", {
+    expect(glitch).toHaveStyleRule("border-right", "1px solid #f2f2f2", {
       modifier: "::before"
     });
   });
@@ -48,10 +48,10 @@ describe("<Glitch/>", () => {
     expect(glitch).toHaveStyle({
       "grid-template-columns": "repeat(3,1fr)"
     });
-    expect(glitch).toHaveStyleRule("border-right", "1px solid #E1E1E6", {
+    expect(glitch).toHaveStyleRule("border-right", "1px solid #f2f2f2", {
       modifier: "::before"
     });
-    expect(glitch).toHaveStyleRule("border-right", "1px solid #E1E1E6", {
+    expect(glitch).toHaveStyleRule("border-right", "1px solid #f2f2f2", {
       modifier: "::after"
     });
 
