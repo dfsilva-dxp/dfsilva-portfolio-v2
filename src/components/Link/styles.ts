@@ -19,7 +19,7 @@ export const Link = styled(NavLink)`
   ${({ theme }) => css`
     width: 100px;
     height: 1.4rem;
-    line-height: 1;
+    line-height: 1.1;
 
     &::before,
     &::after {
