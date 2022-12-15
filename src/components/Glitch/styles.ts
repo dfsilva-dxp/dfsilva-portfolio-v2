@@ -11,7 +11,7 @@ const gridModifiers = {
 
     &::before {
       content: "";
-      border-right: 1px solid ${theme.colors.gray50};
+      border-right: 1px solid ${theme.colors.glitch};
     }
   `,
   three: (theme: DefaultTheme) => css`
@@ -20,7 +20,7 @@ const gridModifiers = {
     &::before,
     &::after {
       content: "";
-      border-right: 1px solid ${theme.colors.gray50};
+      border-right: 1px solid ${theme.colors.glitch};
     }
   `
 };
