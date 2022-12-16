@@ -27,6 +27,9 @@ export const Link = styled(NavLink)`
       content: attr(data-label);
       padding-bottom: 0.6rem;
       font-weight: ${theme.font.weight.bold};
+      font-family: ${theme.font.family.custom};
+      font-size: 0.8125rem;
+
       letter-spacing: 2px;
       transition: all 0.25s;
     }
