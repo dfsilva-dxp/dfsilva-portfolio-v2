@@ -1,31 +1,32 @@
 import styled, { css } from "styled-components";
 
-export const Wrap = styled.div`
+export const Desktop = styled.div`
   ${({ theme }) => css`
     color: ${theme.colors.gray50};
     position: relative;
     z-index: ${theme.layers.base};
-
-    .blend-mode {
-      mix-blend-mode: exclusion;
-    }
-
-    .text {
-      display: block;
-    }
+    display: none;
+    transition: display 0.25s linear;
 
     svg {
       width: 7.8125rem;
     }
 
-    @media (max-width: 768px) {
-      .text {
-        display: none;
-      }
+    @media (min-width: 768px) {
+      display: block;
+    }
+  `}
+`;
+export const Mobile = styled.div`
+  ${({ theme }) => css`
+    color: ${theme.colors.gray50};
+    position: relative;
+    z-index: ${theme.layers.base};
+    display: block;
+    transition: display 0.25s linear;
 
-      svg {
-        width: 2.5rem;
-      }
+    @media (min-width: 768px) {
+      display: none;
     }
   `}
 `;

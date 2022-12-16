@@ -7,7 +7,9 @@ describe("<Logo/>", () => {
   it("should render currectly logo", () => {
     const { container } = renderWithTheme(<Logo />);
 
-    expect(screen.getByLabelText(/daniel silva/i).parentElement).toHaveStyle({
+    expect(
+      screen.getByLabelText(/Daniel Silva Desktop logo/i).parentElement
+    ).toHaveStyle({
       color: "#E1E1E6",
       position: "relative",
       "z-index": 10
