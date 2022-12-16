@@ -1,31 +1,6 @@
 import { createGlobalStyle, css } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
-/* quicksand-regular - latin */
-@font-face {
-  font-family: 'Quicksand';
-  font-style: normal;
-  font-weight: 400;
-  src: local(''),
-       url('../../public/fonts/Quicksand/regular.woff2') format('woff2'),
-
-/* quicksand-600 - latin */
-@font-face {
-  font-family: 'Quicksand';
-  font-style: normal;
-  font-weight: 600;
-  src: local(''),
-       url('../../public/fonts/Quicksand/bold.woff2') format('woff2'), 
-}
-/* quicksand-700 - latin */
-@font-face {
-  font-family: 'Quicksand';
-  font-style: normal;
-  font-weight: 700;
-  src: local(''),
-       url('../../public/fonts/Quicksand/black.woff2') format('woff2'), 
-}
-
 /* Kontora-regular - latin */
 @font-face {
   font-family: 'Kontora';
