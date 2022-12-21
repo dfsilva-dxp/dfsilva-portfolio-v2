@@ -20,5 +20,8 @@ export default {
     "!src/**/*.d.ts"
   ],
   setupFilesAfterEnv: ["<rootDir>/.jest/setup.ts"],
-  modulePaths: ["<rootDir>/src", "<rootDir>/.jest"]
+  modulePaths: ["<rootDir>/src", "<rootDir>/.jest"],
+  moduleNameMapper: {
+    "^.+.(svg)$": "jest-transform-stub"
+  }
 };
