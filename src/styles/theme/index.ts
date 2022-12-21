@@ -69,7 +69,7 @@ export default {
     gray500: "#343642",
     text: "#494D4B",
     blue400: "#4EB3EF",
-    blue900: "#141E2A",
-    green: "#1BFAC1"
+    blue900: "#020015",
+    brown: "#C15143"
   }
 } as const;

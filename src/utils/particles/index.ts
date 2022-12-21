@@ -13,7 +13,7 @@ export const particleOptions: ParticleOptions = {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   color: ({ x, y, image }) => "#020015",
   radius: () => Math.random() * 0.5 + 0.5,
-  mass: () => 10,
+  mass: () => 5,
   friction: () => 0.35,
   initialPosition: ({ canvasDimensions }) => {
     return new Vector(canvasDimensions.width / 2, canvasDimensions.height / 2);
